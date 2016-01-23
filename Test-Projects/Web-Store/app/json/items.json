@@ -1,0 +1,88 @@
+[
+	{
+		"id" : 1,
+		"name":"Chelsea FC",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"type": "Premier League",
+		"price": 69.99,
+		"images": [
+			{
+				"name": "chelsea-home.jpg"
+			},
+			{
+				"name": "chelsea-1.jpg"
+			},
+			{
+				"name": "chelsea-2.jpg"
+			},
+			{
+				"name": "chelsea-3.jpg"
+			},
+			{
+				"name": "chelsea-4.jpg"
+			}
+		]
+	},
+	{	
+		"id" : 2,
+		"name":"Bayern Munich",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"type": "Bundlesliga",
+		"price": 69.99,
+		"images": [
+			{
+				"name": "bayern-home.jpg"
+			}
+		],
+		"soldOut":true
+	},
+	{
+		"id" : 3,
+		"name":"Real Madrid",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		
+		"type": "La Liga",
+		"price": 69.99,
+		"images": [
+			{
+				"name": "madrid-home.jpg"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"name":"Juventus",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		
+		"type": "Serie A",
+		"price": 62.99,
+		"images": [
+			{
+				"name": "juventus-home.jpg"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"name":"Inter Milan",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		
+		"type": "Serie A",
+		"price": 69.99,
+		"images": [
+			{
+				"name": "intermilan-home.jpg"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"name":"Manchester City",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		
+		"type": "Premier League",
+		"price": 65.99,
+		"available": true,
+		"images": [
+			{
+				"name": "mancity-home.jpg"
+			}
+		]
+	}
+]

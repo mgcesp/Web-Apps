@@ -1,0 +1,10 @@
+<div class="row items">
+	<div ng-repeat="item in items">
+		<div class="col-md-4 item-block">
+			<h3 class="item-header">{{item.name}}</h3>
+			<img ng-src="img/{{item.images[0].name}}" alts="">
+			<h4>{{item.price | currency}}</h4>
+			<a href="#/items/{{item.id}}" class="btn btn-primary btn-block">Details</a>
+		</div>
+	</div>
+</div>
