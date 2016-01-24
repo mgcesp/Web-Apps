@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Web Development",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis cupiditate nemo temporibus, natus quasi quis. Voluptate assumenda, perferendis ratione, a doloremque unde, ea ipsa asperiores ipsam dolore deleniti fuga magni.",
+		"image": "http://photos.adron.me/Software/Misc-Images/Just-Icons-and-Bits/i-rLzvSVr/0/S/code-fellows-logo-shield-S.png"
+	},
+	{
+		"id": 2,
+		"name": "iOS Development",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis cupiditate nemo temporibus, natus quasi quis. Voluptate assumenda, perferendis ratione, a doloremque unde, ea ipsa asperiores ipsam dolore deleniti fuga magni.",
+		"image": "http://photos.adron.me/Software/Misc-Images/Just-Icons-and-Bits/i-rLzvSVr/0/S/code-fellows-logo-shield-S.png"
+	},
+	{
+		"id": 3,
+		"name": "UX & UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis cupiditate nemo temporibus, natus quasi quis. Voluptate assumenda, perferendis ratione, a doloremque unde, ea ipsa asperiores ipsam dolore deleniti fuga magni.",
+		"image": "http://photos.adron.me/Software/Misc-Images/Just-Icons-and-Bits/i-rLzvSVr/0/S/code-fellows-logo-shield-S.png"
+	}
+]

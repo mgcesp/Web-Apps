@@ -1,10 +1,11 @@
+
 <div class="details-top">
-	<a href="#/items" class="btn btn-danger">Go Back</a>
+	<a href="#/templates" class="btn btn-danger">Go Back</a>
 	<br><br>
 	<div class="col-md-4">
 		<img ng-src="img/{{mainImage}}" alt="" class="img-full">
 		<div class="row">
-			<div ng-repeat="image in item.images">
+			<div ng-repeat="image in template.images">
 				<div class="col-md-3">
 					<img class="img-full" ng-src="img/{{image.name}}" alt="" ng-click="setImage(image)">
 				</div>
@@ -12,23 +13,23 @@
 		</div>
 	</div>
 	<div class="col-md-8">
-		<h3>{{item.name}}</h3>
-		<p><b>Type: </b>{{item.type}}</p>
-		<p>{{item.description}}</p>
-		<h4>{{item.price | currency}}</h4>
+		<h3>{{template.name}}</h3>
+		<p><b>Type: </b>{{template.type}}</p>
+		<p>{{template.description}}</p>
+		<h4>{{template.price | currency}}</h4>
 		<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
     	<!-- Specifies Buy Now Button -->
         <input type="hidden" name="cmd" value="_xclick">
         <!-- PayPal Email -->
         <input type="hidden" name="business" value="techguyseller@sandbox.com">
         <!-- Item Name -->
-        <input type="hidden" name="item_name" value="{{item.name}}">
+        <input type="hidden" name="item_name" value="{{template.name}}">
         <!-- Item ID -->
-        <input type="hidden" name="item_number" value="{{item.id}}">
+        <input type="hidden" name="item_number" value="{{template.id}}">
         <!-- Currency Code -->
         <input type="hidden" name="currency_code" value="USD">
         <!-- Price -->
-        <input type="hidden" name="amount" value="{{item.price}}">
+        <input type="hidden" name="amount" value="{{template.price}}">
         <!-- Specify Shipping -->
         <input type='hidden' name='no_shipping' value='1'>
         <!-- Return method -->

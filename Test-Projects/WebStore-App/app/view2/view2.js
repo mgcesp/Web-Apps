@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('appStore.view2', ['ngRoute'])
+angular.module('templateStore.view2', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {

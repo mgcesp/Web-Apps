@@ -1,4 +1,5 @@
 /* app css stylesheet */
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -32,25 +33,21 @@
   width: 100%;
 }
 
-.items {
+.templates {
   text-align: center;
-  padding: 80px 15px;
+  padding: 100px 15px;
 }
 
-.items img {
+.templates img {
   width: 70%;
 }
 
-.items a {
+.templates a {
   width: 50%;
   text-align: center;
   margin: auto; 
 }
 
-.item-block {
-  padding-top: 40px;
-}
-
 .details-top {
-  padding: 80px 15px;
+  padding: 100px 15px;
 }

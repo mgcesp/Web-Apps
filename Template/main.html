@@ -1,0 +1,24 @@
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="http://static1.squarespace.com/static/52f2e912e4b052b2dabe3343/t/536d2006e4b03a731bdb54b2/1392691348309/pair.png" alt="">
+        </div>
+        <div class="col-md-8">
+            <h1>Software Solutions</h1>
+            <p class="lead">
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+            </p>
+        </div>
+    </div>      
+</div>
+
+<div class="row">
+
+    <div ng-repeat="service in services">
+      <div class="col-lg-4">
+        <h2>{{service.name}}</h2>
+        <p>{{service.description}}}</p>
+        <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div ng-repeat="project in projects">
+    <div class="col-md-3 col-sm-4 portfolio-item">
+        <a href="" class="portfolio-link">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            <img ng-src="img/{{project.images[0].name}}" class="img-responsive">
+        </a>
+        <div class="portfolio-caption">
+            <h4>{{project.name}}</h4>
+            <p class="text-muted">{{project.type}}</p>
+        </div>
+    </div>
+</div>
