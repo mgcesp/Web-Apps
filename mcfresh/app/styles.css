@@ -1,0 +1,33 @@
+.img-full {
+  width: 100%;
+}
+
+.items {
+  text-align: center;
+  padding: 80px 15px;
+}
+
+.items img {
+  width: 70%;
+}
+
+.items a {
+  width: 50%;
+  text-align: center;
+  margin: auto; 
+}
+
+.text-center {
+	text-align: center;
+}
+
+.section-title-border {
+  width: 70px;
+  height: 3px;
+  background: #446CB3;
+  margin: 0 auto 35px;
+}
+
+#skills {
+  background: #EFEFEF;
+}
